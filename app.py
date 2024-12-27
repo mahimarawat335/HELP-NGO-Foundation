@@ -6,7 +6,7 @@ import pickle
 
 # Load the instances that were created
 
-with open('final_model.pkl','rb') as file:
+with open('model.pkl','rb') as file:
     model = pickle.load(file)
 
 with open('pca.pkl','rb') as file:
